@@ -15,6 +15,7 @@ namespace SampleConsoleApp
             string s = ConfigurationManager.AppSettings["superman"].ToString();
 
             Console.WriteLine("What I got from the config file is: " + s);
+            Console.WriteLine("Adding something extra just to see what happens...");
             Console.WriteLine("Press any key to close...");
             Console.ReadKey();
         }
